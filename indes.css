@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Mohamed Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .section-title {
+            color: #0073e6;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Youssef Mohamed Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am Youssef Mohamed, an MSc candidate specializing in Molecular Biotechnology at Ain Shams University. 
+                My research focuses on CRISPR-based diagnostics for diseases like cancer, tuberculosis, and Alzheimer’s. 
+                With hands-on experience in molecular techniques and a passion for innovation, 
+                I am driven to develop diagnostic solutions to transform healthcare.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Research and Experience</h2>
+            <p>
+                - MSc in Molecular Applied Biotechnology at Ain Shams University<br>
+                - Current Intern at Military Forces Global Medical Institute Laboratory<br>
+                - Former R&D Analytical Researcher at Rotabiogen Pharmaceuticals<br>
+                - Experience in HPLC, NMR spectroscopy, bioinformatics, and next-generation sequencing.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills">
+                <li>CRISPR-based diagnostics</li>
+                <li>Electrochemical biosensors</li>
+                <li>Next-Generation Sequencing</li>
+                <li>HPLC and NMR spectroscopy</li>
+                <li>Bioinformatics and Data Analysis</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Youssef Mohamed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
